@@ -12,11 +12,12 @@
             <h6>Select the size</h6>
             <button id="popup" class="btn btn-info">Select</button>
         </div>
+        <p id="message"></p>
         <div class="board"></div>
         <div class="footer">
-            <button class="btn btn-dark">Black</button>
-            <button class="btn btn-warning">Random</button>
-            <button class="btn btn-danger">Reset</button>
+            <button class="btn btn-dark" onclick="setColor('black')">Black</button>
+            <button class="btn btn-warning" onclick="setColor('random')">Random</button>
+            <button class="btn btn-danger" onclick="resetBoard()">Reset</button>
         </div>
     </body>
 </html>
